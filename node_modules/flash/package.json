@@ -1,0 +1,35 @@
+{
+  "name": "flash",
+  "description": "Simple flash messages for Express",
+  "version": "1.1.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "expressjs/flash",
+  "dependencies": {},
+  "devDependencies": {
+    "cookie-session": "1",
+    "supertest": "0",
+    "express": "4",
+    "istanbul": "0",
+    "mocha": "1"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "keywords": [
+    "flash",
+    "messages",
+    "express"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE"
+  ]
+}
